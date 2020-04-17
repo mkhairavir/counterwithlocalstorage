@@ -35,7 +35,7 @@ const Counter = () => {
             console.log("ini key",key)
             localStorage.setItem(key,JSON.stringify(item))
         }
-
+        setCart(0)
         setProduct("")
     }
 
